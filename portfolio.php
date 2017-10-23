@@ -1,35 +1,32 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>AlexWiseman Coding Project</title>
-    <script type="text/javascript" src="/js/jquery.js"></script>
-    <script type="text/javascript" src="/js/jquery.fancybox-1.3.4.pack.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="/js/jquery.fancybox-1.3.4.css" media="screen" />
-
-    <link href="/css/kube.min.css" rel="stylesheet" type="text/css"/>
-    <link href="/css/style.css?id=1" rel="stylesheet" type="text/css"/>
-</head>
-<body>
-<div class="wrapper">
-    <div class="header-wrapper">
-        <div class="logo">
-            <h1>Alex<span>Wiseman</span></h1>
-            <p>Working for you</p>
-        </div>
-        <div class="right-panel">
-            <div class="leftcontent">
-                <h2>call me</h2>
-                <h1>+7 920 8830026</h1>
-            </div>
-        </div>
-    </div>
-    <div class="clearing"></div>
+<?php
+/**
+ * Created by IntelliJ IDEA.
+ * User: cobalt
+ * Date: 23.10.17
+ * Time: 13:57
+ */
+include_once 'includes/header.php'
+?>
     <div class="banner-wrapper">
-        <h2>Mobile development</h2>
+        <h2 style="text-align: center;">Mobile development</h2>
         <table class="bordered striped">
+            <tr>
+                <td width="300px">
+                    <a href="/files/endure.png" class="fancybox">
+                        <img src="/files/endure.png" width="300px" height="300px"/>
+                    </a>
+                </td>
+                <td>
+                    <h3>Endure</h3>
+                    <span class="created">created 12.05.2017</span>
+                    <p>Train and Practice your kegel muscle (pelvic floor muscle).
+                        Pelvic floor exercises can be effective in treating premature ejaculation in men who have had lifelong problems</p>
+                    <p>Реализовано на React Native. Мной написано только мобильное приложение. Сервер реализован на стороне заказчика.</p>
+                    <p><b>Опубликовано:</b>
+                        <a href="https://play.google.com/store/apps/details?id=com.awcoding.endure" target="_blank">Google Play Market</a>
+                    </p>
+                </td>
+            </tr>
             <tr>
                 <td width="300px">
                     <a href="/files/bcmcalculator.png" class="fancybox">
@@ -41,7 +38,10 @@
                     <span class="created">created 17.04.2017</span>
                     <p>Nissan/Infinity BCM Out-code to PIN-code converter Tool</p>
                     <p>Реализовано на React Native. Мной написано только мобильное приложение. Сервер реализован на стороне заказчика.</p>
-                    <p><b>Опубликовано:</b> <a href="https://play.google.com/store/apps/details?id=com.awcoding.bcmcalculator" target="_blank">Google Play Market</a></p>
+                    <p><b>Опубликовано:</b>
+                        <a href="https://play.google.com/store/apps/details?id=com.awcoding.bcmcalculator" target="_blank">Google Play Market</a>,
+                        <a href="https://itunes.apple.com/us/app/bcm-calculator/id1222909233?l=ru&ls=1&mt=8" target="_blank">App Store</a>
+                    </p>
                 </td>
             </tr>
             <tr>
@@ -74,11 +74,6 @@
             </tr>
         </table>
     </div>
-</div>
-<div class="bottom">
-    <div class="content">
-        <p>Powered by AlexWiseman 2017 &copy;</p>
-    </div>
-</div>
-</body>
-</html>
+<?php
+include_once 'includes/footer.php'
+?>
