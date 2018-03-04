@@ -5,11 +5,44 @@
  * Date: 23.10.17
  * Time: 13:57
  */
+$PageTitle = "Portfolio";
 include_once 'includes/header.php'
 ?>
     <div class="banner-wrapper">
         <h2 style="text-align: center;">Mobile development</h2>
         <table class="bordered striped">
+            <tr>
+                <td width="300px">
+                    <a href="/files/bashim.png" class="fancybox">
+                        <img src="/files/bashim.png" width="300px" height="300px"/>
+                    </a>
+                </td>
+                <td>
+                    <h3>BashIm</h3>
+                    <span class="created">created 03.03.2018</span>
+                    <p>Читалка самого известного цитатника рунета</p>
+                    <p>Реализовано на React Native.</p>
+                    <p><b>Опубликовано:</b>
+                        <a href="https://play.google.com/store/apps/details?id=com.awcoding.bashim" target="_blank">Google Play Market</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td width="300px">
+                    <a href="/files/thelistings.png" class="fancybox">
+                        <img src="/files/thelistings.png" width="300px" height="300px"/>
+                    </a>
+                </td>
+                <td>
+                    <h3>TheListings</h3>
+                    <span class="created">created 30.10.2017</span>
+                    <p>Trade online without any fees on The Listings New Zealand</p>
+                    <p>Реализовано на React Native. Мной написано только мобильное приложение. Сервер реализован на стороне заказчика.</p>
+                    <p><b>Опубликовано:</b>
+                        <a href="https://play.google.com/store/apps/details?id=com.awcoding.thelistings" target="_blank">Google Play Market</a>
+                    </p>
+                </td>
+            </tr>
             <tr>
                 <td width="300px">
                     <a href="/files/endure.png" class="fancybox">

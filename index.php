@@ -5,6 +5,7 @@
  * Date: 23.10.17
  * Time: 13:57
  */
+$PageTitle = "Coding Project";
 include_once 'includes/header.php'
 ?>
     <div class="banner-wrapper">
