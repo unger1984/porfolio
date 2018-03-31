@@ -13,6 +13,38 @@ include_once 'includes/header.php'
         <table class="bordered striped">
             <tr>
                 <td width="300px">
+                    <a href="/files/fl.png" class="fancybox">
+                        <img src="/files/fl.png" width="300px" height="300px"/>
+                    </a>
+                </td>
+                <td>
+                    <h3>FL.RU</h3>
+                    <span class="created">created 29.03.2018</span>
+                    <p>Неофициальный клиент популярной фриланс биржи fl.ru</p>
+                    <p>Реализовано на React Native. Серверная часть на NodeJS.</p>
+                    <p><b>Опубликовано:</b>
+                        <a href="https://play.google.com/store/apps/details?id=com.awcoding.fl" target="_blank">Google Play Market</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td width="300px">
+                    <a href="/files/memsreader.png" class="fancybox">
+                        <img src="/files/memsreader.png" width="300px" height="300px"/>
+                    </a>
+                </td>
+                <td>
+                    <h3>Mems Reader</h3>
+                    <span class="created">created 04.03.2018</span>
+                    <p>Развлекательное приложение позволяющее тебе скрасить время просмотром различных приколов и юморных картинок</p>
+                    <p>Реализовано на React Native.</p>
+                    <p><b>Опубликовано:</b>
+                        <a href="https://play.google.com/store/apps/details?id=com.awcoding.memsreader" target="_blank">Google Play Market</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td width="300px">
                     <a href="/files/bashim.png" class="fancybox">
                         <img src="/files/bashim.png" width="300px" height="300px"/>
                     </a>
