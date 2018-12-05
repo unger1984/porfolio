@@ -11,6 +11,22 @@ include_once 'includes/header.php'
     <div class="banner-wrapper">
         <h2 style="text-align: center;">Mobile development</h2>
         <table class="bordered striped">
+                    <tr>
+                        <td width="300px">
+                            <a href="/files/posteldelux.png" class="fancybox">
+                                <img src="/files/posteldelux.png" width="300px" height="300px"/>
+                            </a>
+                        </td>
+                        <td>
+                            <h3>Postel Deluxe</h3>
+                            <span class="created">created 05.12.2018</span>
+                            <p>Приложение для получения скидок по домашнему текстилю</p>
+                            <p>Реализовано на React Native.</p>
+                            <p><b>Опубликовано:</b>
+                                <a href="https://play.google.com/store/apps/details?id=com.awcoding.posteldeluxe" target="_blank">Google Play Market</a>
+                            </p>
+                        </td>
+                    </tr>
             <tr>
                 <td width="300px">
                     <a href="/files/fl.png" class="fancybox">
