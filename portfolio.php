@@ -42,6 +42,7 @@ include_once 'includes/header.php'
                 <p><b>Опубликовано:</b>
                     <a href="https://play.google.com/store/apps/details?id=com.awcoding.posteldeluxe"
                        target="_blank">Google Play Market</a>
+                    <a href="https://itunes.apple.com/ru/app/postel-deluxe-скидки-и-акции/id1445849945" target="_blank">App Store</a>
                 </p>
             </td>
         </tr>
