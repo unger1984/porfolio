@@ -25,7 +25,7 @@ include_once 'includes/header.php'
                 <p><b>Опубликовано:</b>
                     <a href="https://play.google.com/store/apps/details?id=com.awcoding.gumsnet" target="_blank">Google
                         Play Market</a>,
-                    <a href="https://itunes.apple.com/ru/app/GumsNet/id1447242505" target="_blank">App Stor</a>
+                    <a href="https://itunes.apple.com/ru/app/GumsNet/id1447242505" target="_blank">App Store</a>
                 </p>
             </td>
         </tr>
