@@ -24,7 +24,8 @@ include_once 'includes/header.php'
                 <p>Реализовано на React Native. Вместо API на сервере приложение работает с html кодом сайта</p>
                 <p><b>Опубликовано:</b>
                     <a href="https://play.google.com/store/apps/details?id=com.awcoding.gumsnet" target="_blank">Google
-                        Play Market</a>
+                        Play Market</a>,
+                    <a href="https://itunes.apple.com/ru/app/GumsNet/id1447242505" target="_blank">App Stor</a>
                 </p>
             </td>
         </tr>
@@ -41,7 +42,7 @@ include_once 'includes/header.php'
                 <p>Реализовано на React Native.</p>
                 <p><b>Опубликовано:</b>
                     <a href="https://play.google.com/store/apps/details?id=com.awcoding.posteldeluxe"
-                       target="_blank">Google Play Market</a>
+                       target="_blank">Google Play Market</a>,
                     <a href="https://itunes.apple.com/ru/app/postel-deluxe-скидки-и-акции/id1445849945" target="_blank">App Store</a>
                 </p>
             </td>
