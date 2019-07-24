@@ -13,6 +13,24 @@ include_once 'includes/header.php'
     <table class="bordered striped">
         <tr>
             <td width="300px">
+                <a href="/files/ergoforma.png" class="fancybox">
+                    <img src="/files/ergoforma.png" width="300px" height="300px"/>
+                </a>
+            </td>
+            <td>
+                <h3>Ergoforma</h3>
+                <span class="created">created 23.07.2019</span>
+                <p>Бонусная программа по комрессионному трикотажу Ergoforma</p>
+                <p>Реализовано на React Native. API реализовано средствами заказчика</p>
+                <p><b>Опубликовано:</b>
+                    <a href="https://play.google.com/store/apps/details?id=com.awcoding.atletika" target="_blank">Google
+                        Play Market</a>,
+                    <a href="https://apps.apple.com/ru/app/ergoforma/id1472518725" target="_blank">App Store</a>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="300px">
                 <a href="/files/gumsnet.png" class="fancybox">
                     <img src="/files/gumsnet.png" width="300px" height="300px"/>
                 </a>
