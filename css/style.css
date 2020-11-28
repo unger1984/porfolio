@@ -59,9 +59,12 @@ HEADER CLASSES
 .logo p{}
 
 .right-panel{float:right; width:456px; overflow:hidden; margin-top:20px;}
-.leftcontent{width:175px; float:right;}
-.leftcontent h2{float:right; font-family: 'Tienne', serif; font-size:14px; color:#e5703d; text-transform:uppercase; padding-bottom:11px; font-weight:normal;}
-.leftcontent h1{float:right; font-family:'Tienne', serif; font-size:20px; color:#333333; font-weight:normal;}
+.leftcontent{width:175px; float:right; display: flex; flex-direction: row; align-items: center}
+.leftcontent a{ margin-right: 10px; display: block; border-radius: 32px}
+.leftcontent a:hover{ margin-right: 10px; background:#e5703d;}
+.leftcontent a img{ width: 64px; height: 64px;}
+/*.leftcontent h2{float:right; font-family: 'Tienne', serif; font-size:14px; color:#e5703d; text-transform:uppercase; padding-bottom:11px; font-weight:normal;}*/
+/*.leftcontent h1{float:right; font-family:'Tienne', serif; font-size:20px; color:#333333; font-weight:normal;}*/
 .search-panel{float:left; width:250px;  overflow:hidden;}
 .search-panel h2{float:right; font-family: 'Tienne', serif; font-size:14px; color:#e5703d; text-transform:uppercase; font-weight:normal; padding-bottom:5px;}
 .search{width:250px;  }
