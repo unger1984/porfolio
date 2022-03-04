@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ssl.awcoding.com.iml" filepath="$PROJECT_DIR$/ssl.awcoding.com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ssl.awcoding.com.iml" filepath="$PROJECT_DIR$/.idea/ssl.awcoding.com.iml" />
     </modules>
   </component>
 </project>
